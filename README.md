@@ -6,11 +6,13 @@
 
 ## Estrutura do Projeto
 
+```
 MediaTechStore/
-index.html              # Página principal do projeto
-css/
-   style.css            # Estilos da página
-imagens e recursos      # As imagens atualmente são carregadas por URL externa
+├── index.html              # Página principal do projeto
+├── css/
+│   └── style.css           # Estilos da página
+└── imagens e recursos      # As imagens atualmente são carregadas por URL externa
+```
 
 ---
 
@@ -29,12 +31,12 @@ imagens e recursos      # As imagens atualmente são carregadas por URL externa
 
 ---
 
-## 🖥️ Como Executar Localmente
+## Como Executar Localmente
 
 1. **Baixe ou clone o projeto:**
 
    ```bash
-   git clone https://github.com/seu-usuario/mediatech-store.git
+   git clone https://github.com/alicecustodiodecarvalho/MediaTechStore-proj.git
    ```
 
 2. **Abra o projeto:**
@@ -48,15 +50,3 @@ imagens e recursos      # As imagens atualmente são carregadas por URL externa
      open index.html        # macOS
      xdg-open index.html    # Linux
      ```
-
----
-
-## 📬 Contato
-
-- **Email:** mediatech.store@gmail.com  
-- **Telefone:** (11) 1234-5678  
-- **Endereço:** Rua Exemplo, 123 - Cidade, Estado
-
----
-
-© 2025 MediaTech Store. Todos os direitos reservados.
