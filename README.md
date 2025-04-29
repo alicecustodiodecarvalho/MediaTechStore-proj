@@ -18,16 +18,42 @@ MediaTechStore/
 
 ## Decisões de Design
 
-- **Responsividade básica:** Com a tag `<meta viewport>` já configurada para dispositivos móveis.
-- **Design dividido por seções:** Os conteúdos são agrupados por categorias como:
-  - Top 8 mais assistidos
-  - Séries
-  - Comédia
-  - Romance
-  - Ação e aventura
-  - Suspense
-- **Navegação direta:** Um menu simples no topo permite acessar as seções da página ou páginas externas.
-- **Rodapé informativo:** Contém informações institucionais e de contato da MediaTech Store.
+- **Separação por Setores:** O site agora é dividido em cinco páginas principais, com links acessíveis no menu superior:
+  - Filmes (index.html)
+  - Séries (series.html)
+  - Games (games.html)
+  - Acessórios (tecnologia.html)
+  - Tecnologia (também em tecnologia.html)
+
+- **Design unificado:** Todas as páginas utilizam a mesma estrutura base de navegação e o mesmo arquivo CSS, garantindo consistência visual.
+- **Conteúdo simulado com imagens reais:** As imagens usadas são reais, mas ainda servem como demonstração de layout. Isso permite visualizar a estrutura de exibição antes da integração com banco de dados.
+- **Responsividade inicial:** A tag `<meta viewport>` foi aplicada para garantir compatibilidade com dispositivos móveis, embora ainda não haja media queries específicas.
+
+---
+
+## Tecnologias Utilizadas
+
+- HTML5  
+- CSS3  
+- Imagens via URL externa  
+- Estrutura de navegação em múltiplas páginas estáticas
+
+---
+
+## Funcionalidades e Soluções
+
+- **Menu funcional:** Links navegáveis entre todas as páginas dos setores.
+- **Layout em grade:** Cada categoria apresenta os itens com imagens em grade (`div.filmes`, `div.filme`).
+- **Rodapé institucional:** Presente em todas as páginas, com informações de contato e links úteis.
+- **Diferenciação de cor nos menus:** As páginas destacam os setores com cores diferentes para melhor orientação do usuário.
+
+---
+
+## Motivações e Justificativas
+
+- **Divisão temática:** Facilita a expansão do projeto, permitindo que cada setor evolua separadamente (ex: games podem futuramente ter filtros por gênero ou plataforma).
+- **Facilidade de manutenção:** A estrutura modular permite que os arquivos sejam editados individualmente sem comprometer a página principal.
+- **Foco no conteúdo visual:** Como se trata de um site de entretenimento e tecnologia, a ênfase foi dada a imagens grandes e impactantes.
 
 ---
 
