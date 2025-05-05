@@ -9,6 +9,10 @@
 ```
 MediaTechStore/
 ├── index.html              # Página principal do projeto
+├── series.html             # Página de Séries
+├── games.html              # Página de Jogos 
+├── tecnologia.html         # Página de Acessórios e Tecnologia
+├── contato.html            # Página de Contato
 ├── css/
 │   └── style.css           # Estilos da página
 └── imagens e recursos      # As imagens atualmente são carregadas por URL externa
@@ -18,12 +22,13 @@ MediaTechStore/
 
 ## Decisões de Design
 
-- **Separação por Setores:** O site agora é dividido em cinco páginas principais, com links acessíveis no menu superior:
+- **Separação por Setores:** O site agora é dividido em seis páginas principais, com links acessíveis no menu superior:
   - Filmes (index.html)
   - Séries (series.html)
   - Games (games.html)
   - Acessórios (tecnologia.html)
   - Tecnologia (também em tecnologia.html)
+  - Contato (contato.html)
 
 - **Design unificado:** Todas as páginas utilizam a mesma estrutura base de navegação e o mesmo arquivo CSS, garantindo consistência visual.
 - **Conteúdo simulado com imagens reais:** As imagens usadas são reais, mas ainda servem como demonstração de layout. Isso permite visualizar a estrutura de exibição antes da integração com banco de dados.
@@ -55,6 +60,14 @@ MediaTechStore/
 - **Facilidade de manutenção:** A estrutura modular permite que os arquivos sejam editados individualmente sem comprometer a página principal.
 - **Foco no conteúdo visual:** Como se trata de um site de entretenimento e tecnologia, a ênfase foi dada a imagens grandes e impactantes.
 
+---
+
+### [05/05/2025]
+- Adicionada a página `contato.html`, que será usada para suporte, dúvidas ou reclamações.
+- Atualizado o menu de navegação em `index.html`, com link clicável para a nova página de contato.
+- Decidimos que o contato será feito via [e-mail | WhatsApp].
+- Todos os arquivos HTML atualizados foram devidamente testados para garantir a navegação entre páginas.
+  
 ---
 
 ## Como Executar Localmente
