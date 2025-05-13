@@ -70,6 +70,35 @@ MediaTechStore/
   
 ---
 
+### Etapa Futura: Conformidade com a LGPD
+A MediaTech Store, como parte de suas ações futuras, implementará medidas de conformidade com a Lei Geral de Proteção de Dados (LGPD). Esta etapa visa garantir a privacidade e segurança dos dados pessoais dos usuários, abordando as seguintes áreas:
+
+1. Identificação dos Tipos de Dados Pessoais e Sensíveis Tratados
+Definição clara dos dados coletados, como nome, e-mail, endereço de entrega, dados de pagamento, entre outros.
+
+Identificação de dados sensíveis que possam ser coletados, como informações financeiras.
+
+2. Bases Legais Aplicáveis para o Tratamento de Dados
+Consentimento, execução de contrato, cumprimento de obrigação legal e legítimo interesse serão as bases legais consideradas para o tratamento de dados pessoais.
+
+3. Principais Riscos à Privacidade e Medidas de Mitigação
+Implementação de criptografia, controle de acesso, monitoramento e auditoria para proteger dados pessoais.
+
+Garantia de transparência no uso dos dados, com opções de controle por parte do usuário.
+
+4. Estratégias de Implementação dos Direitos dos Titulares
+Desenvolvimento de um painel de controle para que os usuários possam acessar, corrigir ou excluir seus dados, conforme os direitos previstos pela LGPD.
+
+5. Proposta de Arquitetura Segura e Conformidade
+Adoção de criptografia, autenticação multifatorial e backups seguros para proteger os dados e garantir a conformidade com a LGPD.
+
+6. Mecanismo de Aceite das Condições de Uso e Armazenamento de Dados
+Implementação de um sistema de consentimento explícito para coleta de dados, incluindo a aceitação da política de privacidade e a utilização de cookies, com a opção de configuração por parte do usuário.
+
+Essa etapa será incluída no roadmap do projeto, com a implementação detalhada a ser realizada após a conclusão das funcionalidades principais do e-commerce. Toda a documentação será atualizada com os procedimentos e ferramentas utilizados para garantir a conformidade com a LGPD.
+
+---
+
 ## Como Executar Localmente
 
 1. **Baixe ou clone o projeto:**
